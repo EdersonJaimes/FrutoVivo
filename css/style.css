@@ -702,19 +702,19 @@ footer {
 
 @keyframes rotar {
     0% {
-      background-image: url('../img/logo.webp');
+      background-image: url('../img/logo.jpg');
     }
     25% {
       background-image: url('../img/portada2.jpg');
     }
     50% {
-      background-image: url('../img/portada5.jpg');
+      background-image: url('../img/portada5.jpn');
     }
     75% {
-        background-image: url('../img/portada3.jpg');
+        background-image: url('../img/portada3.jpeg');
       }
     100% {
-      background-image: url('../img/portada4.jpg');
+      background-image: url('../img/portada4.png');
     }
   }
 
