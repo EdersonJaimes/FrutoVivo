@@ -20,7 +20,9 @@ header {
 }
 
 .logo {
-    width: 8%;
+    width: 5%;
+    border-radius: 10px;
+
 }
 
 img {
@@ -242,28 +244,6 @@ footer {
     margin: 20px 40px 0px;
 }
 
-.social-icon {
-    color: #333;
-    font-size: 50px;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: #007bff;
-}
-
-
-.container-form {
-    padding: 10rem;
-    background-image: url(../img/portada1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    padding: 20px;
-}
-
 .login-cont {
     display: flex;
     justify-content: center;
@@ -384,17 +364,7 @@ footer {
     border-radius: 50%;
     text-decoration: none;
     font-size: 20px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-.social-icon:hover {
-    transform: scale(1.1);
-}
-
-.social-icon:hover .fa-facebook-f { color: #3b5998; }
-.social-icon:hover .fa-twitter { color: #1da1f2; }
-.social-icon:hover .fa-instagram { color: #e4405f; }
-.social-icon:hover .fa-linkedin-in { color: #0077b5; }
 
 .carousel {
     position: relative;
@@ -557,12 +527,34 @@ section{
     border:#333;
     margin: 20px 40px 0px;
 }
-.social-icon {
-    color: #333;
-    font-size: 50px;
-    margin: 0 10px;
-    text-decoration: none;
+.social-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
 }
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    color: #444;
+    border: 2px solid #ddd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover opcional suave, no cambia color */
+.social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
 .social-icon:hover {
     color: #007bff;
 }
@@ -711,7 +703,7 @@ footer {
       background-image: url('../img/portada5.jpg');
     }
     75% {
-        background-image: url('../img/portada3.jpeg');
+        background-image: url('../img/portada3.png');
       }
     100% {
       background-image: url('../img/portada4.png');
