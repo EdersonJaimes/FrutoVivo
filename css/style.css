@@ -96,7 +96,7 @@ main {
 }
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     gap: 40px;
     align-items: center;
@@ -675,22 +675,6 @@ footer {
     text-align: center;
 }
 
-/* Responsividad */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items:center;
-    }
-
-    .footer-contact, .footer-legal {
-        margin: 0;
-        text-align: center;
-    }
-
-    .footer-legal {
-        margin-top: 20px;
-    }
-}
 
 @keyframes rotar {
     0% {
@@ -728,7 +712,7 @@ footer {
     }
 
     main {
-        flex-direction: column;
+        flex-direction: row;
         padding: 20px;
     }
 
@@ -775,7 +759,7 @@ footer {
     }
 
     nav {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         width: 100%;
     }
@@ -786,7 +770,7 @@ footer {
     }
 
     .idiomas {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
     }
 
